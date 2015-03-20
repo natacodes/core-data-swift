@@ -14,6 +14,8 @@
 		41A592391ABCAB900049A602 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A592381ABCAB900049A602 /* Images.xcassets */; };
 		41A5923C1ABCAB900049A602 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41A5923A1ABCAB900049A602 /* LaunchScreen.xib */; };
 		41A592481ABCAB900049A602 /* CoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A592471ABCAB900049A602 /* CoreDataTests.swift */; };
+		41A592521ABCAC240049A602 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A592511ABCAC240049A602 /* Storyboard.storyboard */; };
+		41A592541ABCB6360049A602 /* vcMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A592531ABCB6360049A602 /* vcMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		41A592411ABCAB900049A602 /* CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A592461ABCAB900049A602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41A592471ABCAB900049A602 /* CoreDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTests.swift; sourceTree = "<group>"; };
+		41A592511ABCAC240049A602 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		41A592531ABCB6360049A602 /* vcMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vcMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				41A5923A1ABCAB900049A602 /* LaunchScreen.xib */,
 				41A592301ABCAB900049A602 /* CoreData.xcdatamodeld */,
 				41A5922C1ABCAB900049A602 /* Supporting Files */,
+				41A592511ABCAC240049A602 /* Storyboard.storyboard */,
+				41A592531ABCB6360049A602 /* vcMain.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -196,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A592371ABCAB900049A602 /* Main.storyboard in Resources */,
+				41A592521ABCAC240049A602 /* Storyboard.storyboard in Resources */,
 				41A5923C1ABCAB900049A602 /* LaunchScreen.xib in Resources */,
 				41A592391ABCAB900049A602 /* Images.xcassets in Resources */,
 			);
@@ -216,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A592341ABCAB900049A602 /* ViewController.swift in Sources */,
+				41A592541ABCB6360049A602 /* vcMain.swift in Sources */,
 				41A592321ABCAB900049A602 /* CoreData.xcdatamodeld in Sources */,
 				41A5922F1ABCAB900049A602 /* AppDelegate.swift in Sources */,
 			);
